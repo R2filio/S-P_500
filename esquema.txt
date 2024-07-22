@@ -1,0 +1,22 @@
+                      +---------------+
+                      |   companies   |
+                      +---------------+
+                      | company_id (PK)|
+                      | name           |
+                      +---------------+
+                             |
+                             |
+                             |
+                             v
+                      +---------------+
+                      |     stocks     |
+                      +---------------+
+                      | stock_id (PK)  |
+                      | company_id (FK)|
+                      | date           |
+                      | open           |
+                      | high           |
+                      | low            |
+                      | close          |
+                      | volume         |
+                      +---------------+
